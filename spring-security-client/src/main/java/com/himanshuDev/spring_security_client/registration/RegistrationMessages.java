@@ -22,4 +22,11 @@ public final class RegistrationMessages {
 
     public static final String VERIFICATION_LINK_SEND =
             "Verification Link Sent";
+
+    public static final String RESET_PASSWORD_LINK_SEND =
+            "If an account exists for that email, a reset link has been sent.";
+
+    public static final String PASSWORD_RESET_SUCCESS =
+            "Password Reset Successfully!.";
+
 }
