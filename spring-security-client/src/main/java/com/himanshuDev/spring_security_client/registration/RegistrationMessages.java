@@ -29,4 +29,10 @@ public final class RegistrationMessages {
     public static final String PASSWORD_RESET_SUCCESS =
             "Password Reset Successfully!.";
 
+    public static final String INVALID_OLD_PASSWORD =
+            "Invalid old password!.";
+
+    public static final String PASSWORD_CHANGE_SUCCESS =
+            "Password Change Successfully!.";
+
 }
