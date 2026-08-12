@@ -11,5 +11,6 @@ public final class RegistrationConstants {
     public static final String RESEND_VERIFY_TOKEN = "/resendVerificationToken";
     public static final String RESET_PASSWORD_LINK = "/resetPassword";
     public static final String SAVE_PASSWORD = "/savePassword";
+    public static final String CHANGE_PASSWORD = "/changePassword";
 
 }

@@ -15,7 +15,14 @@ import org.springframework.security.web.SecurityFilterChain;
 @EnableWebSecurity
 public class WebSecurityConfig {
 
-    private static final String[] WHITE_LIST_LOGIN_URL = {RegistrationConstants.VERIFY_REGISTRATION, RegistrationConstants.REGISTER_URL,RegistrationConstants.RESEND_VERIFY_TOKEN, RegistrationConstants.RESET_PASSWORD_LINK, RegistrationConstants.SAVE_PASSWORD};
+    private static final String[] WHITE_LIST_LOGIN_URL = {
+            RegistrationConstants.VERIFY_REGISTRATION,
+            RegistrationConstants.REGISTER_URL,
+            RegistrationConstants.RESEND_VERIFY_TOKEN,
+            RegistrationConstants.RESET_PASSWORD_LINK,
+            RegistrationConstants.SAVE_PASSWORD,
+            RegistrationConstants.CHANGE_PASSWORD,
+    };
 
     @Bean
     public PasswordEncoder passwordEncoder() {
